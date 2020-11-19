@@ -1,5 +1,6 @@
 $(() => {
   $('.burger_menu').on('click', () => {
-    $('.menu').css({display: 'flex'})
-  })
+    $('.menu').addClass('active');
+    $('.menu').toggle();
+  });
 })
